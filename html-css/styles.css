@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff; 
+}
+
+header, footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #e60000;
+}
+
+footer p {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.place-card, .review-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-weight: bold;
+    color: #e60000;
+}
+
+.place-image, .place-image-large {
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.place-details {
+    display:block;
+    gap: 20px;
+    display:inline-block;
+    align-items: center;
+}
+
+.place-info {
+    flex: 1;
+    align-items: center;
+}
+
+.details-button, .add-review button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e60000;
+    border: none;
+    border-radius: 5px;
+}
+
+.add-review {
+    margin-top: 20px;
+}
+
+.add-review form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-review textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.add-review input[type="number"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}

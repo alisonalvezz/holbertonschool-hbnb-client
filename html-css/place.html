@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="/images/logo.png" alt="Logo" class="logo">
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="login.html" class="nav-link">Login</a>
+        </nav>
+    </header>
+    <main>
+        <div class="place-details">
+            <img src="/images/place1.jpg" alt="Place" class="place-image-large">
+            <div class="place-details">
+            <!-- Place info -->
+                <h2>Place Name</h2>
+                <p>Host: John Doe</p>
+                <p>Price per night: $100</p>
+                <p>Location: Los Angeles, United States</p>
+                <p>Description: A beautiful beach house with amazing views</p>
+                <p>Amenities: Wifi, Pool, Air Conditioning</p>
+            </div>
+        </div>
+        <!-- Reviews -->
+        <div class="review-card">
+            <p>Comment: Great place!</p>
+            <p>User: John Doe</p>
+            <p>Rating: </p>
+        </div>
+        <!-- Add Review Form if logged in -->
+        <div class="add-review">
+            <form id="add-review-form">
+                <label for="review">Your Review:</label>
+                <textarea id="review" name="review" required></textarea>
+                <label for="rating">Rating:</label>
+                <input type="number" id="rating" name="rating" min="1" max="5" required>
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 All Rights Reserved</p>
+    </footer>
+</body>
+</html>
